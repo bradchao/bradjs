@@ -1,0 +1,29 @@
+<script>
+var var1 = 10, var2 = 3;
+var r1 = var1 + var2;
+var r2 = var1 - var2;
+var r3 = var1 * var2;
+var r4 = var1 / var2;
+var r5 = var1 % var2;
+document.write(var1 + "+" + var2 + "=" + r1 + "<br>");
+document.write(var1 + "-" + var2 + "=" + r2 + "<br>");
+document.write(var1 + "x" + var2 + "=" + r3 + "<br>");
+document.write(var1 + "/" + var2 + "=" + r4 + "<br>");
+document.write(var1 + "%" + var2 + "=" + r5 + "<br>");
+document.write("<hr>");
+
+var2 = '3';
+var r1 = var1 + var2;   // 特別注意此處, 因為相加了字串, 所以是字串相加
+var r2 = var1 - var2;   // 其他會轉換成為 number 來運算
+var r3 = var1 * var2;
+var r4 = var1 / var2;
+var r5 = var1 % var2;
+document.write(var1 + "+" + var2 + "=" + r1 + "<br>");
+document.write(var1 + "-" + var2 + "=" + r2 + "<br>");
+document.write(var1 + "x" + var2 + "=" + r3 + "<br>");
+document.write(var1 + "/" + var2 + "=" + r4 + "<br>");
+document.write(var1 + "%" + var2 + "=" + r5 + "<br>");
+document.write("<hr>");
+
+
+</script>
